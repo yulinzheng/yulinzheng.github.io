@@ -105,7 +105,7 @@
         </div>
       </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -152,9 +152,16 @@
               <div class="subheading mb-3">VP Engineering</div>
               <p><ul>
                 <li>Introduced team members to VR/AR concepts, design principles, and 3D game development with Unity and C#.</li>
-                <li>Developed VR/AR games and applications for various events (e.g. Halloween, Cal Day, VXPC).</li>
+                <li>Developed VR/AR games and applications for various events (e.g. Halloween, Cal Day, <a href="https://vr.berkeley.edu/vxpc.html">VXPC</a>).</li>
                 <li>Responsible for recruiting, leading new project teams, troubleshooting demos, etc.</li>
-                <li>More info: <a href="https://youtu.be/gUPY_vwpJaQ">Virtual Campanile</a>, <a href="https://youtu.be/ALtWvbNSChY">Haunted Hospital</a>, <a href="https://youtu.be/tt-sUxOYpuw">Driving Simulator</a>, <a href="https://vr.berkeley.edu/vxpc.html">Virtual Experience Conference</a>.</li>
+                <li>Project videos:
+                    <ul>
+                        <li><a href="https://youtu.be/gUPY_vwpJaQ">Virtual Campanile</a></li>
+                        <li><a href="https://youtu.be/tt-sUxOYpuw">Driving Simulator</a></li>
+                        <li><a href="https://youtu.be/ALtWvbNSChY">Haunted Hospital</a></li>
+                        <li><a href="http://www.isaacs.io/">ISAACS</a></li>
+                    </ul>
+                </li>
               </ul></p>
             </div>
             <div class="resume-date text-md-right">
@@ -169,9 +176,14 @@
                 <li>Introduced students to CS concepts and programming paradigms with Python.</li>
                 <li>Wrote labs, discussion notes, and exams.</li>
                 <li>Maintained Bash and Python scripts for project auto-graders.</li>
-                <li>More info: <a href="http://61a-su15-website.github.io/">CS 61A</a> - Introduction to Programming<br>
-                    <a href="http://www-inst.eecs.berkeley.edu/~cs70/sp15/">CS 70</a> - Discrete Mathematics and Probability Theory<br>
-                    <a href="http://cs375.github.io/su16/index.html">CS 375</a> - Teaching Techniques for Computer Science</li>
+                <li>Mentored first-time CS Teaching Assistants.</li>
+                <li>Course websites:
+                    <ul>
+                        <li><a href="http://61a-su15-website.github.io/">CS 61A</a> - Introduction to Programming</li>
+                        <li><a href="http://www-inst.eecs.berkeley.edu/~cs70/sp15/">CS 70</a> - Discrete Mathematics and Probability Theory</li>
+                        <li><a href="http://cs375.github.io/su16/index.html">CS 375</a> - Teaching Techniques for Computer Science</li>
+                    </ul>
+                </li>
               </ul></p>
             </div>
             <div class="resume-date text-md-right">
@@ -184,12 +196,74 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Transition-Based Dependency Parser</h4>
+              <p><ul>
+                  <li>Implemented and featurized configurations for the transition action classifier.</li>
+                  <li>Trained classifier using libraries such as NumPy, SciPy, and scikit-learn.</li>
+                  <li>Improved parser's performance to achieve ~81% test accuracy.</li>
+              </ul></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Nov 2017</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Twitter Social Network Graph</h4>
+              <p><ul>
+                  <li>Retrieved JSON data from Twitter's API using Meteor in server-side JavaScript.</li>
+                  <li>Constructed a graph of social connections with D3.js.</li>
+              </ul></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Sep 2017 - Present</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <h4 class="mb-0">3D Animated Short Film - <a href="https://youtu.be/-r0JS6yaRrg">The Plant</a></h4>
+              <p><ul>
+                  <li>Created a 90-second 3D animation using Autodesk Maya and Renderman, through the process of modeling, rigging, shading, lighting, and post-production.</li>
+                  <li>Individual work: </li>
+              </ul></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Feb - May 2017</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Distributed Network Routing Simulation</h4>
+              <p><ul>
+                  <li>Implemented distance-vector routing for routers within a simulated network.</li>
+                  <li>Optimized implementation for efficient failure handling.</li>
+              </ul></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Oct 2016</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
         <div class="my-auto">
           <h2 class="mb-5">Research</h2>
-          <p><!-- TODO --></p>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Interactive 3D Visualization of Convolutional Neural Networks</h4>
+              <div class="subheading mb-3">with Prof. <a href="https://people.eecs.berkeley.edu/~yang/">Allen Yang</a></div>
+              <p><ul>
+                  <li>Built and trained multi-layered CNNs using TensorFlow's Python API.</li>
+                  <li>Streamed data to Unity with Apache Thrift and Python Twisted.</li>
+                  <li>Generated 3D procedural mesh in Unity that can be viewed within a VR environment.</li> 
+              </ul></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May - Aug 2017</span>
+            </div>
         </div>
       </section>
 
