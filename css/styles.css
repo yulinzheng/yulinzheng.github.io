@@ -149,6 +149,10 @@ td,tr{
     border-style:solid;
     border-width:0
 }
+.td-padding{
+    padding-left: 30px;
+    padding-right: 30px
+}
 button{
     border-radius:0
 }
