@@ -7,8 +7,8 @@
     * Copyright 2011-2021 Twitter, Inc.
     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
 :root{
-    --bs-primary:#695f5f;
-    --bs-primary-rgb:105,95,95;
+    --bs-primary:#736969;
+    --bs-primary-rgb:115,105,105;
     --bs-body-color-rgb:33,37,41;
     --bs-body-bg-rgb:255,255,255;
     --bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -95,7 +95,7 @@ ul ul{
     margin-bottom:0
 }
 a{
-    color:#695f5f;
+    color:#736969;
     text-decoration:underline
 }
 a:hover{
@@ -215,7 +215,7 @@ button{
 .nav-link{
     display:block;
     padding:.5rem 1rem;
-    color:#695f5f;
+    color:#736969;
     text-decoration:none;
     transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
 }
@@ -580,7 +580,7 @@ p.lead{
     margin-right:0
 }
 .social-icons .social-icon:hover{
-    background-color:#695f5f
+    background-color:#736969
 }
 section.resume-section{
     display:flex;
